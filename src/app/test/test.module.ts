@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 
 import { TestRoutingModule } from './test-routing.module';
 import { BaselineComponent } from './baseline/baseline.component';
+import { CreatewhatifComponent } from './createwhatif/createwhatif.component';
 
 
 @NgModule({
   declarations: [
-    BaselineComponent
+    BaselineComponent,
+    CreatewhatifComponent
   ],
   imports: [
     CommonModule,
